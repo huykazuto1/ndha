@@ -20,7 +20,7 @@ else:
 
 nhap_key=input(f'''\033[1;32m Link lấy key: \033[1;33m{link_key}
 \033[1;32m Nhạp key ngày hôm nay: \033[1;33m''')
-if nhap_key==key or key_vip:
+if nhap_key==key:
 	print('\033[1;32m Key chính xác')
 else:
 	print('\033[1;31m Key không hợp lệ')
