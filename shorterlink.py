@@ -11,7 +11,7 @@ url=f'https://tranthuongtv.name.vn/key.php?key={key}'
 #thay token link1s
 
 token_link1s="1580058dee70fe85a4daccb984fea8f364151d26"
-post_url=requests.get(f'https://octolink.io/api?api={token_link1s}&url={url}&alias=CustomAlias').json()
+post_url=requests.get(f'https://octolink.io/api?api={token_link1s}&url={url}').json()
 if post_url['status']=="error":
 	print(post_url['message'])
 	quit()
